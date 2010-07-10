@@ -1,0 +1,130 @@
+﻿body{
+	font-family: "DejaVu Sans","URW Gothic L","Helvetica Neue",Helvetica,Arial,"Microsoft Sans Serif",sans-serif;
+}
+
+table,tbody,tr,td{
+	padding:0;
+	border: none;
+	margin: 10px;
+}
+
+a:link {color:#858;}
+a:visited {color:#858;}
+a:hover {color:#858;}
+a:active {color:#858;}
+
+#container
+{
+	position:relative;
+	margin: 0 auto;
+	width: 1000px;
+	background: #fff;
+}
+
+#header
+{
+	position:relative;
+	background: #ccc;
+	height: 100px;
+}
+
+#navigation
+{
+	positon: relative;
+	float: left;
+	width: 1000px;
+	background: #333;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
+#content-container
+{
+	float: left;
+	width: 1000px;
+	background: #fff url(/wp-content/uploads/layout-three-fixed-background.gif) repeat-y 100% 0;
+}
+
+#section-navigation
+{
+	float: left;
+	width: 160px;
+	height: 400px;
+	padding: 20px 0;
+	margin: 0 20px;
+	display: inline;
+}
+
+#section-navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#section-navigation ul li
+{
+	margin: 0 0 1em;
+	padding: 0;
+	list-style-type: none;
+}
+
+#content
+{
+	float: left;
+	width: 500px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+}
+
+#footer
+{
+	clear: left;
+	background: #ccc;
+	text-align: right;
+	padding: 10px;
+	height: 1%;
+}
+
+#MainLogo{
+	position:absolute;
+	left: 0px;
+	top: 0px;
+}
+#LoginMenu{
+	position:absolute;
+	float: left;
+	left: 100px;
+	top: 0px;
+}
+#Banner{
+	position:absolute;
+	float: left;
+	left: 400px;
+	top: 0px;
+}
+#MainMenu{
+}
+#SearchMenu{
+}

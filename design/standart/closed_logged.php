@@ -1,0 +1,3 @@
+<?
+	echo 'Sorry logout first';
+?>
