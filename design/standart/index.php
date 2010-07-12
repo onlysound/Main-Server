@@ -4,6 +4,7 @@ if(isset($_SESSION['ID']) AND is_numeric($_SESSION['ID'])){//zaloginen
 	<table width="100%" border="1">
 		<tr>
 			You entered as :'.$name_show.'<br>
+                        Last login: '.$last_login.'<br>
 			<a href="logout.php">'.$text['login_field']['logout'].'</a>
 		</tr>
 	</table>';
