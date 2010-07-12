@@ -1,3 +1,3 @@
 <?
-	echo 'Sorry logout first';
+	echo 'You are logged out now.';
 ?>
